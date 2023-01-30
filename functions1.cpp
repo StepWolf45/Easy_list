@@ -22,8 +22,9 @@ int itc_positive_list(const vector<int> &mass) {
     if (mass[i] > 0) {
       kol++;
     }
-    return kol;
   }
+  return kol;
+  
 }
 int itc_sl_list(const vector<int> &mass) {
   int kol = 0;
